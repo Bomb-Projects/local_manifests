@@ -1,13 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!--Trees-->
-    <project name="Bomb-Projects/device_motorola_channel" path="device/motorola/channel" revision="14.0-Common" remote="github" />
-    <project name="Bomb-Projects/device_motorola_sdm632-common" path="device/motorola/sdm632-common" revision="14.0" remote="github" />
-    <project name="Bomb-Projects/kernel_motorola_sdm632" path="kernel/motorola/sdm632" revision="Supra-4.9.337" remote="github" />
-    <project name="Bomb-Projects/vendor_motorola_channel" path="vendor/motorola/channel" revision="14.0-Common" remote="github" />
-    <project name="Bomb-Projects/vendor_motorola_sdm632-common" path="vendor/motorola/sdm632-common" revision="14.0" remote="github" />
+    <!-- Deps -->
     <project name="Lavender-Gang/Keys" path="vendor/lineage-priv/keys" revision="main" remote="github" />
-    <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" revision="lineage-21" remote="github" />
-    <project name="LineageOS/android_system_qcom" path="system/qcom" revision="lineage-21" remote="github" />
-    <project name="LineageOS/android_external_bson" path="external/bson" revision="lineage-21" remote="github" />
+    <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" revision="lineage-22.2" remote="github" />
+
+    <!-- Kernel -->
+    <project name="Bomb-Projects/kernel_motorola_sdm632" path="kernel/motorola/sdm632" revision="Supra-4.9.337" remote="github" />
+
+    <!-- Trees -->
+    <project name="Bomb-Projects/device_motorola_ocean" path="device/motorola/ocean" revision="15.0" remote="github" />
+    <project name="Bomb-Projects/device_motorola_sdm632-common" path="device/motorola/sdm632-common" revision="15.0" remote="github" />
+
+    <!-- Vendors -->
+    <project name="Bomb-Projects/vendor_motorola_ocean" path="vendor/motorola/ocean" revision="15.0" remote="github" />
+    <project name="Bomb-Projects/vendor_motorola_sdm632-common" path="vendor/motorola/sdm632-common" revision="15.0" remote="github" />
 </manifest>
